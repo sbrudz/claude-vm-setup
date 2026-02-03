@@ -4,6 +4,33 @@
 
 For code quality, architecture, and UX design skills, see [dev-ethos](https://github.com/sbrudz/dev-ethos).
 
+## Quick Start
+
+Paste this prompt into a fresh Claude Code session to bootstrap the VM:
+
+```
+Bootstrap this VM for development.
+
+Step 1: Install plugin collections by running these commands:
+
+claude plugin marketplace add obra/superpowers-marketplace
+claude plugin install superpowers@superpowers-marketplace
+claude plugin marketplace add sbrudz/claude-vm-setup
+claude plugin install claude-vm-setup@claude-vm-setup
+claude plugin marketplace add sbrudz/dev-ethos
+claude plugin install dev-ethos@sbrudz-skills
+
+Step 2: Configure GitHub credentials. Fetch and follow the skill instructions at:
+https://raw.githubusercontent.com/sbrudz/claude-vm-setup/main/skills/configuring-github-credentials/SKILL.md
+
+Also fetch the package manager reference at:
+https://raw.githubusercontent.com/sbrudz/claude-vm-setup/main/skills/configuring-github-credentials/references/package-managers.md
+
+Step 3: After everything is complete, tell me to restart Claude Code so all plugins take effect.
+```
+
+This installs three plugin collections ([superpowers](https://github.com/obra/superpowers), [claude-vm-setup](https://github.com/sbrudz/claude-vm-setup), [dev-ethos](https://github.com/sbrudz/dev-ethos)), then configures git, GitHub CLI, and SSH keys. The process is interactive — Claude will prompt you for your GitHub username and guide you through authentication.
+
 ## Available skills
 
 | Skill | Description |

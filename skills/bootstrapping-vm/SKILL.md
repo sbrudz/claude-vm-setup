@@ -27,13 +27,13 @@ Copy and track progress:
 
 ## Step 1: Install superpowers
 
-Follow the [installing-superpowers](../installing-superpowers/SKILL.md) skill.
+Follow the [installing-superpowers](https://github.com/sbrudz/claude-vm-setup/blob/main/skills/installing-superpowers/SKILL.md) skill.
 
 Note whether superpowers was newly installed or already present. Continue to Step 2 either way — GitHub credential setup does not depend on superpowers.
 
 ## Step 2: Configure GitHub credentials
 
-Follow the [configuring-github-credentials](../configuring-github-credentials/SKILL.md) skill.
+Follow the [configuring-github-credentials](https://github.com/sbrudz/claude-vm-setup/blob/main/skills/configuring-github-credentials/SKILL.md) skill.
 
 This step is interactive — it will prompt the user for their GitHub username, guide them through authentication, and set up SSH keys.
 
