@@ -1,0 +1,26 @@
+{
+  "name": "claude-vm-setup",
+  "owner": {
+    "name": "sbrudz"
+  },
+  "metadata": {
+    "description": "Agent skills for bootstrapping a Linux VM for development with Claude Code.",
+    "version": "1.0.0",
+    "pluginRoot": "."
+  },
+  "plugins": [
+    {
+      "name": "claude-vm-setup",
+      "source": "./",
+      "description": "VM bootstrapping, GitHub credential setup, and superpowers installation skills.",
+      "version": "1.0.0",
+      "author": {
+        "name": "sbrudz"
+      },
+      "repository": "https://github.com/sbrudz/claude-vm-setup",
+      "license": "MIT",
+      "category": "development",
+      "tags": ["bootstrapping", "github", "ssh", "vm-setup"]
+    }
+  ]
+}
