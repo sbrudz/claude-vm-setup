@@ -37,6 +37,7 @@ This installs three plugin collections ([superpowers](https://github.com/obra/su
 |-------|-------------|
 | [configuring-github-credentials](skills/configuring-github-credentials/SKILL.md) | Configures a Linux VM with git, GitHub CLI, SSH keys, and GitHub authentication. Distro-aware package installation. |
 | [project-quality-setup](skills/project-quality-setup/SKILL.md) | Configures linting, formatting, pre-commit hooks, and CI before implementation begins. Detects the tech stack (Node.js/TypeScript, Go, Ruby, Rust) and applies the appropriate tools. |
+| [continuous-deployment](skills/continuous-deployment/SKILL.md) | Sets up continuous deployment from GitHub Actions to the VM using Kamal, GHCR, and Let's Encrypt. Gated on CI success. |
 
 ## Installation
 
