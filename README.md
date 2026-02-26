@@ -35,8 +35,6 @@ This installs three plugin collections ([superpowers](https://github.com/obra/su
 
 | Skill | Description |
 |-------|-------------|
-| [bootstrapping-vm](skills/bootstrapping-vm/SKILL.md) | Bootstraps a Linux VM for development with Claude Code by installing superpowers and configuring GitHub credentials. |
-| [installing-superpowers](skills/installing-superpowers/SKILL.md) | Checks if the obra/superpowers plugin collection is installed in Claude Code and installs it if missing. |
 | [configuring-github-credentials](skills/configuring-github-credentials/SKILL.md) | Configures a Linux VM with git, GitHub CLI, SSH keys, and GitHub authentication. Distro-aware package installation. |
 
 ## Installation
@@ -53,7 +51,7 @@ This installs three plugin collections ([superpowers](https://github.com/obra/su
 Use the `/install-skill` command in Claude Code and provide the GitHub URL to the skill directory, e.g.:
 
 ```
-/install-skill https://github.com/sbrudz/claude-vm-setup/tree/main/skills/bootstrapping-vm
+/install-skill https://github.com/sbrudz/claude-vm-setup/tree/main/skills/configuring-github-credentials
 ```
 
 ### Other agents
