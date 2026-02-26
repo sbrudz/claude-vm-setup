@@ -5,7 +5,7 @@
   },
   "metadata": {
     "description": "Agent skills for bootstrapping a Linux VM for development with Claude Code.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "pluginRoot": "."
   },
   "plugins": [
@@ -13,7 +13,7 @@
       "name": "claude-vm-setup",
       "source": "./",
       "description": "VM bootstrapping, GitHub credential setup, and superpowers installation skills.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "sbrudz"
       },
