@@ -39,6 +39,13 @@ This installs three plugin collections ([superpowers](https://github.com/obra/su
 | [project-quality-setup](skills/project-quality-setup/SKILL.md) | Configures linting, formatting, pre-commit hooks, and CI before implementation begins. Detects the tech stack (Node.js/TypeScript, Go, Ruby, Rust) and applies the appropriate tools. |
 | [continuous-deployment](skills/continuous-deployment/SKILL.md) | Sets up continuous deployment from GitHub Actions to the VM using Kamal, GHCR, and Let's Encrypt. Gated on CI success. |
 
+## Skill ordering
+
+After bootstrapping the VM with `configuring-github-credentials`, the remaining skills run as part of your development workflow:
+
+1. **project-quality-setup** — Run once per project, after scaffolding but before writing any feature code. Sets up linting, formatting, pre-commit hooks, and a CI workflow.
+2. **continuous-deployment** — Run once per project, after `project-quality-setup` has created a CI workflow. Sets up Kamal, Docker, and a GitHub Actions deploy pipeline so that pushes to `main` auto-deploy after CI passes.
+
 ## Installation
 
 ### Claude Code (plugin marketplace)
